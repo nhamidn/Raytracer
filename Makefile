@@ -9,7 +9,7 @@ LIBS = -lSDL2 -lSDL2_image -lm
 TARGET = raytracer
 
 # Source files
-SRCS = main.cpp
+SRCS = main.cpp parser.cpp raytracer.cpp vectors_operations.cpp
 
 # Object files
 OBJS = $(SRCS:.cpp=.o)
